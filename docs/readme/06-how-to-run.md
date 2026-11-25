@@ -8,9 +8,14 @@ cd firewall-ml
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m src.data_fetch            # downloads data/raw/firewall.csv
+python -m src.data               # cleans, deduplicates, and writes data/processed/
 ```
 
-<!-- TODO(nafi): add the commands for the counts file and the data freeze once A (PRD-A) defines them. -->
+Verify the data contracts pass:
+
+```bash
+pytest tests -k "counts or data"    # counts.json + frozen split checks
+```
 
 Train and evaluate each model. Every run writes its files to `results/<model>/`.
 
