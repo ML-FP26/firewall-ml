@@ -1,0 +1,7 @@
+{
+  "clf__min_samples_leaf": 50,
+  "clf__max_leaf_nodes": 31,
+  "clf__max_iter": 400,
+  "clf__learning_rate": 0.03,
+  "clf__l2_regularization": 0
+}

@@ -1,0 +1,1 @@
+Bobot kelas membantu model lebih sering mengenali kelas yang langka, tetapi peningkatan itu tidak otomatis memperbaiki macro-F1 validasi silang secara keseluruhan. Hasil penanganan ketidakseimbangan perlu dinilai bersama skor CV dan recall tiap kelas.

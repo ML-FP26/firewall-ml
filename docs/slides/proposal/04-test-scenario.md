@@ -14,3 +14,7 @@ none
 
 ## Say out loud (3-5 sentences)
 Duplikat persis dihapus sebelum pemisahan agar baris yang sama tidak bocor ke dua bagian data. Data kemudian dibagi secara stratifikasi dengan seed tetap. Penyetelan dilakukan memakai lima lipatan pada data train saja. Data test disimpan hingga model akhir siap dan hanya dinilai sekali, sementara model terbaik dipilih dari skor validasi silang.
+
+## If the lecturer asks
+Q: Bagaimana test set dilindungi dari proses tuning?
+A: Seluruh penyetelan dan pemilihan model memakai validasi silang pada data train. Test set baru digunakan sekali untuk melaporkan hasil akhir setiap model.
