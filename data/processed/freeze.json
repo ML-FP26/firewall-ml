@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "frozen_on": "2026-11-25",
+  "random_state": 42,
+  "test_size": 0.2,
+  "n_rows_raw": 65532,
+  "n_rows_after_dedupe": 57170,
+  "n_conflicting_feature_groups": 9,
+  "labels": [
+    "allow",
+    "deny",
+    "drop",
+    "reset-both"
+  ],
+  "class_counts_after_dedupe": {
+    "allow": 37439,
+    "deny": 8042,
+    "drop": 11635,
+    "reset-both": 54
+  },
+  "n_train": 45736,
+  "n_test": 11434,
+  "class_counts_train": {
+    "allow": 29951,
+    "deny": 6434,
+    "drop": 9308,
+    "reset-both": 43
+  },
+  "class_counts_test": {
+    "allow": 7488,
+    "deny": 1608,
+    "drop": 2327,
+    "reset-both": 11
+  },
+  "sha256": {
+    "train.csv": "3d648a7cb32932dbf1b9426e64a740b29a2ad50fed28f6ccc75f2ebb0afece72",
+    "test.csv": "b2f92ed3ba5362e7d7ba8d098b4f3720798f32949fe17ae6ee93821e775f4ed8"
+  },
+  "rare_class_policy": "keep_all_4_classes"
+}
