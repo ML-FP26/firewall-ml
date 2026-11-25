@@ -1,0 +1,35 @@
+{
+  "source": "UCI Internet Firewall Data (id 542)",
+  "n_rows": 65532,
+  "n_columns": 12,
+  "n_features": 11,
+  "label_column": "Action",
+  "class_counts": {
+    "allow": 37640,
+    "deny": 14987,
+    "drop": 12851,
+    "reset-both": 54
+  },
+  "class_share": {
+    "allow": 0.5743758774339254,
+    "deny": 0.22869743026307757,
+    "drop": 0.19610266739913323,
+    "reset-both": 0.0008240249038637612
+  },
+  "n_exact_duplicates": 8362,
+  "n_missing_cells": 0,
+  "column_dtypes": {
+    "Source Port": "int64",
+    "Destination Port": "int64",
+    "NAT Source Port": "int64",
+    "NAT Destination Port": "int64",
+    "Action": "str",
+    "Bytes": "int64",
+    "Bytes Sent": "int64",
+    "Bytes Received": "int64",
+    "Packets": "int64",
+    "Elapsed Time (sec)": "int64",
+    "pkts_sent": "int64",
+    "pkts_received": "int64"
+  }
+}
