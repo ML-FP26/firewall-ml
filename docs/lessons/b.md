@@ -1,0 +1,1 @@
+Gini impurity importance was visibly biased toward high-cardinality port numbers, so evaluating permutation importance on macro-F1 was essential to prove that connection duration and destination port actually drive the firewall decisions. Setting class weights to balanced subsample helped stabilize rare-class predictions without degrading overall accuracy.

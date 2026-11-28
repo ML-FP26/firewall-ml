@@ -1,0 +1,88 @@
+{
+  "model": "rf",
+  "labels": [
+    "allow",
+    "deny",
+    "drop",
+    "reset-both"
+  ],
+  "n_train": 45736,
+  "n_test": 11434,
+  "cv": {
+    "scoring": "f1_macro",
+    "n_splits": 5,
+    "mean": 0.8655130438657249,
+    "std": 0.042464383222291964
+  },
+  "test": {
+    "accuracy": 0.9986881231415078,
+    "macro_f1": 0.8818123758564657,
+    "weighted_f1": 0.9985458160479479,
+    "balanced_accuracy": 0.8397873956992428,
+    "mcc": 0.9974273774687251,
+    "per_class": {
+      "allow": {
+        "precision": 0.9998664529914529,
+        "recall": 0.9998664529914529,
+        "f1": 0.9998664529914529,
+        "support": 7488
+      },
+      "deny": {
+        "precision": 0.9950279676817899,
+        "recall": 0.9956467661691543,
+        "f1": 0.9953372707491451,
+        "support": 1608
+      },
+      "drop": {
+        "precision": 0.997428204029147,
+        "recall": 1.0,
+        "f1": 0.9987124463519313,
+        "support": 2327
+      },
+      "reset-both": {
+        "precision": 1.0,
+        "recall": 0.36363636363636365,
+        "f1": 0.5333333333333333,
+        "support": 11
+      }
+    },
+    "confusion_matrix": [
+      [
+        7487,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1601,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        2327,
+        0
+      ],
+      [
+        0,
+        7,
+        0,
+        4
+      ]
+    ]
+  },
+  "fit_seconds": 1.3453044891357422,
+  "best_params": {
+    "clf__n_estimators": 200,
+    "clf__min_samples_leaf": 2,
+    "clf__max_features": 0.5,
+    "clf__max_depth": 20,
+    "clf__class_weight": "balanced_subsample"
+  },
+  "versions": {
+    "python": "3.11.9",
+    "sklearn": "1.9.0"
+  }
+}

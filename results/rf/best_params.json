@@ -1,0 +1,7 @@
+{
+  "clf__n_estimators": 200,
+  "clf__min_samples_leaf": 2,
+  "clf__max_features": 0.5,
+  "clf__max_depth": 20,
+  "clf__class_weight": "balanced_subsample"
+}

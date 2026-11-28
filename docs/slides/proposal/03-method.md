@@ -15,3 +15,8 @@ figures/flowchart.png
 ## Say out loud (3-5 sentences)
 Kami membandingkan tiga model dengan karakteristik yang berbeda. Random Forest menggabungkan banyak pohon, sedangkan HistGradientBoosting membangun pohon secara bertahap. Logistic Regression menjadi pembanding linear yang sederhana. Semua model mengikuti alur validasi yang sama agar perbandingannya adil.
 
+## If the lecturer asks
+Q: Mengapa tidak menggunakan deep learning untuk data ini?
+A: Dataset ini berupa data tabular dengan 11 fitur numerik di mana model ensemble berbasis pohon seperti Random Forest dan Gradient Boosting lebih unggul, efisien dilatih, serta mudah dianalisis tanpa kebutuhan komputasi besar.
+
+
